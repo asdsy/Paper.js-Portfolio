@@ -1,0 +1,29 @@
+html,body {
+    height: 100%;
+}
+
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+h1 {
+    font-family: "Monofonto";
+    src: url("/fonts/monofonto.woff2") format("woff2");
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.modal-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+font-family: "CustomFont";
+src: url("CustomFont.eot");
